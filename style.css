@@ -1,0 +1,35 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00539F;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black; /* Horizontal offset, vertical offset, blur radius, color of shadow */
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto; /* Margin is inside the border. 0 affects top and bottom. Auto affects left and right, dividing horizontal space evenly. */
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px; /* Padding is outside the border. Order is: top,right,bottom,left */
+    border: 5px solid black;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    display: block; /* Margin will only work if the image is a block element, not an inline one. */
+    margin: 0 auto;
+}
